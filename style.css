@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+}
+.white {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+.black {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+table {
+    border: 3px solid black;
+    margin-top: 50px;
+}
+input {
+    border: 2px solid black;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 5px;
+}
+span {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 7px;
+
+}
